@@ -1,5 +1,16 @@
 import "./App.css";
+import Calculator from "./Calculator";
 
 export default function App() {
-  return <></>;
+  return (
+    <>
+      <header>
+        <h1>Calculator</h1>
+      </header>
+      <Calculator />
+      <footer>
+        <p>Created by Old Dead One</p>
+      </footer>
+    </>
+  );
 }
